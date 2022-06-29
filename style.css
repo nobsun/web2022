@@ -121,11 +121,11 @@ img {
         align-items: center;
     }
 
-    .imgtex-container > .text {
+    .imgtext-container > .text {
         flex: 1;
     }
     
-    .imgtex-container > .img {
+    .imgtext-container > .img {
         flex: 2;
     }
 }
