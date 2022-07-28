@@ -210,6 +210,12 @@ img {
     width: 100%;
 }
 
+@supports not (aspect-ratio: 3 / 2) {
+    .post img {
+        height: 180px;
+    }
+}
+
 /* パーツの見出し */
 .heading {
     position: absolute;
